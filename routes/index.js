@@ -3,7 +3,7 @@ var router = express.Router();
 var React = require('react');
 var ReactDOM = require('react-dom/server');
 var DOM = React.DOM;
-var config = require('./config.js');
+var config = require('../config.js');
 const nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport({
