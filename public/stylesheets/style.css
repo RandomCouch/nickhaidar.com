@@ -1,0 +1,156 @@
+*{
+    transition: all 0.5s ease;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index:9;
+}
+#navMenu {
+    margin-top: 5px;
+}
+.navLink {
+    display: inline-block;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    cursor: pointer;
+    color: white;
+    font-family: Calibri light;
+    font-size: 1.2em;
+    border-bottom: 1px solid transparent;
+}
+.navLink.focused{
+    transition: all 2s linear;
+}
+.navLink p {
+    margin-top: 25%;
+}
+.navLink:hover {
+    border-color: white;
+}
+.nameContainer{
+    margin-top: 20vh;
+    text-align: center;
+    color: white;
+}
+.nameContainer .section-heading{
+    font-size: 7em;
+    border-bottom: 3px solid white;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.nameContainer .section-description{
+    font-size: 2em;
+}
+.page{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+    margin-bottom: 10%;
+    font-family: Calibri light;
+}
+.page h4{
+    color: rgba(255, 255, 255, 0.61);
+}
+.page h2 {
+    border-bottom: 2px solid white;
+    width: 30%;
+    margin: 0 auto;
+}
+.page p {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+}
+.page ul {
+    list-style: none;
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: #d6d272 !important;
+}
+a:hover {
+    color: #ec8440 !important;
+}
+.project-description{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(31, 31, 31);
+    border-radius: 5px;
+    font-size: 0.9em;
+    padding: 5px;
+}
+form.contact input, form.contact textarea{
+    width:100%;
+    color:black;
+    font-family:calibri;
+}
+form.contact button{
+    background-color: #e49a51;
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    font-family: calibri;
+    font-size: 1.5em;
+}
+.project_picture{
+    border-radius:10px;
+}
+.success {
+    background-color: #3aab35;
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+    background-color: rgba(0, 0, 0, 0.31);
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-family: Calibri;
+    font-size: 1.3em;
+}
+.footer p{
+    margin-bottom:5px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/TastyBG.png);
+    font: 14px Verdana;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 73.7vh;
+}
+.error {
+    background-color: rgba(233, 13, 13, 0.72);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+  color: #00B7FF;
+}
+.icons img {
+    width: 60px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
