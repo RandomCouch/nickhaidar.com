@@ -27,7 +27,7 @@ router.post('/sendMail', function(req,res,next){
    console.log("Sending email from " + email + ": "  + message);
    let mailOption = {
        from: email,
-       to: "Target@Gmail.com",
+       to: "NicolasAbouHaidar@Gmail.com",
        subject: "Contact Message from NickHaidar.com",
        text: actualMessage
    };
