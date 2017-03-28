@@ -89,6 +89,7 @@ a:hover {
     border-radius: 5px;
     font-size: 0.9em;
     padding: 5px;
+    margin-bottom:15px;
 }
 form.contact input, form.contact textarea{
     width:100%;
@@ -132,12 +133,12 @@ body {
     margin: 0;
     background-image: url(../images/TastyBG.png);
     font: 14px Verdana;
-    background-size: 1920px 100vh;
+    background-size: 1920px 1080px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
     padding-bottom: 6rem;
-    min-height: 73.7vh;
+    min-height: 73vh;
 }
 .error {
     background-color: rgba(233, 13, 13, 0.72);
@@ -153,4 +154,45 @@ a {
     width: 60px;
     margin-right: 25px;
     margin-left: 25px;
+}
+
+@media (max-width: 520px) {
+    .nameContainer .section-heading{
+        font-size: 5em;
+    }
+    .nameContainer .section-description {
+        font-size: 1.5em;
+    }
+    .navLink{
+        padding-left:3vw;
+        padding-right:3vw;
+    }
+    
+}
+@media (max-width: 370px) {
+    .nameContainer .section-heading{
+        font-size: 4em;
+    }
+    .nameContainer .section-description {
+        font-size: 1.5em;
+    }
+    .navLink{
+        padding-left:2vw;
+        padding-right:2vw;
+        font-size:1.1em;
+    }
+    .page{
+        margin-top:20%;
+    }
+    .page p{
+        font-size:1.2em;
+        width:100%;
+    }
+    .project-description{
+        font-size:0.8em;
+        width:100%;
+    }
+    .page h2{
+        width:80%;
+    }
 }

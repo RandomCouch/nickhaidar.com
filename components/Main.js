@@ -11,9 +11,8 @@ var Footer = React.createClass({
             <div className='footer'>
                 <p>Designed and coded by myself</p>
                 <div className='icons'>
-                    <img src='https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png' />
-                    <img src='http://angular.github.io/react-native-renderer/assets/react.png' />
-                    <img src='http://nodejs-cloud.com/img/128px/expressjs.png' />
+                    <img src='//nodejs.org/static/images/logos/nodejs-new-pantone-black.png' />
+                    <img src='//angular.github.io/react-native-renderer/assets/react.png' />
                 </div>
             </div>
            )

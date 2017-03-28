@@ -21276,9 +21276,8 @@
 	            React.createElement(
 	                'div',
 	                { className: 'icons' },
-	                React.createElement('img', { src: 'https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png' }),
-	                React.createElement('img', { src: 'http://angular.github.io/react-native-renderer/assets/react.png' }),
-	                React.createElement('img', { src: 'http://nodejs-cloud.com/img/128px/expressjs.png' })
+	                React.createElement('img', { src: '//nodejs.org/static/images/logos/nodejs-new-pantone-black.png' }),
+	                React.createElement('img', { src: '//angular.github.io/react-native-renderer/assets/react.png' })
 	            )
 	        );
 	    }
